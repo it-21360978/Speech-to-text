@@ -2,7 +2,7 @@
 import { SpeechConfig, AudioConfig, SpeechRecognizer } from 'microsoft-cognitiveservices-speech-sdk';
 
  // Create a new SpeechRecognizer object
-     const speechConfig = SpeechConfig.fromSubscription('0e820481cd4e4c66890b8fbf9ad4f2bb', 'eastus');
+     const speechConfig = SpeechConfig.fromSubscription('<key>', 'eastus');
      const audioConfig = AudioConfig.fromDefaultMicrophoneInput();
      const recognizer = new SpeechRecognizer(speechConfig, audioConfig);
  
